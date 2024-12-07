@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red_maroon">#800000</color> <!-- Merah maroon -->
+    <color name="red_dark">#660000</color> <!-- Merah maroon gelap -->
+    <color name="black">#FF000000</color>
+    <color name="dark_background">#121212</color> <!-- Warna latar belakang gelap -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="text_light">#E0E0E0</color> <!-- Warna teks terang -->
+    <color name="normal_color">#9E9E9E</color> <!-- Warna abu-abu -->
+
+</resources>

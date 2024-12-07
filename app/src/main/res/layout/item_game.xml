@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Gambar game -->
+    <ImageView
+        android:id="@+id/game_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="@string/game_image"
+        android:scaleType="centerCrop" />
+
+    <!-- Nama game -->
+    <TextView
+        android:id="@+id/game_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingTop="8dp"
+        android:text="Game Title" /> <!-- Placeholder text, akan diganti dengan data dari kode -->
+
+    <!-- Deskripsi game (Tanggal rilis) -->
+    <TextView
+        android:id="@+id/game_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:paddingTop="4dp"
+        android:text="Release Date" /> <!-- Placeholder text, akan diganti dengan data dari kode -->
+</LinearLayout>

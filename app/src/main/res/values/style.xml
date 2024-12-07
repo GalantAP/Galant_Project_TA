@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema aplikasi untuk mode gelap -->
+    <style name="Theme.GameListApp" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/red_maroon</item> <!-- Merah neon -->
+        <item name="colorPrimaryDark">@color/red_dark</item> <!-- Merah gelap -->
+        <item name="colorAccent">@color/red_maroon</item> <!-- Merah neon -->
+        <item name="android:textColorPrimary">@color/text_light</item> <!-- Warna teks terang -->
+        <item name="android:windowBackground">@color/dark_background</item> <!-- Warna latar belakang gelap -->
+        <item name="android:statusBarColor">@color/black</item> <!-- Warna status bar -->
+        <item name="android:navigationBarColor">@color/black</item> <!-- Warna navigasi bar -->
+    </style>
+</resources>

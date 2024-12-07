@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Judul Halaman -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Game PC"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="left"/>
+
+    <!-- Pesan Selamat Datang -->
+    <TextView
+        android:id="@+id/tvWelcomeMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat datang di daftar game PC terbaik! Temukan game-game terbaru dan terpopuler di sini."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"/>
+
+    <!-- SearchView untuk pencarian game -->
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Cari game..."
+        android:layout_marginTop="16dp"/>
+
+    <!-- RecyclerView untuk menampilkan daftar game -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>
