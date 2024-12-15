@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:padding="40dp"
     android:gravity="center"
-    android:background="@drawable/background_image"> <!-- Ganti dengan nama gambar Anda -->
+    android:background="@drawable/background_image"> <!-- Pastikan gambar ini tidak memodifikasi warna -->
 
     <TextView
         android:layout_width="wrap_content"
@@ -33,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Login"
-        android:background="@drawable/button_background" /> <!-- Menggunakan drawable -->
+        android:background="@drawable/button_background" /> <!-- Gunakan drawable tanpa efek tambahan -->
 
     <TextView
         android:id="@+id/txtRegister"

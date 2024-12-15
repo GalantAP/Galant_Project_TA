@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         val txtRegister = findViewById<TextView>(R.id.txtRegister) // Menambahkan referensi ke TextView registrasi
 
         btnLogin.setOnClickListener {
-            if (username.text.toString() == "Galant" && password.text.toString() == "17171717") {
+            if (username.text.toString() == "Galant" && password.text.toString() == "1212") {
                 val intent = Intent(this, WelcomeActivity::class.java)
                 startActivity(intent)
                 finish()
